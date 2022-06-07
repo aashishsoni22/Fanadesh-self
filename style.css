@@ -13,7 +13,7 @@ body{
     --yellow:#E8BF12;
     --white:#FEFEFE;
 }
-#header-wrap{
+#header-wrap,nav{
     background: var(--yellow);
 }
 .navbar-brand{
@@ -66,3 +66,124 @@ body{
     position: absolute;
 
 }
+/* about ,admission,why read fanadesh and determine section css combine with admission or about start */
+/* about css start */
+.about-wraper{
+    margin: 4rem 0 0 0;
+}
+.about-content-wrap{
+    align-self: center;
+    text-align: right;
+}
+.about-btn-wrap{
+    background: #6EBCA8;
+    padding: 1rem 1.5rem;
+    border-radius: 0.8rem;
+}
+.about-btn-wrap a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.about-content-wrap p{
+    padding: 1.9rem 0;
+}
+.about-img-wrap img{
+    width: 40vw;
+    height: 85vh;
+}
+/* about css end */
+/* admission css start */
+.admission-wrap{
+    margin: 6rem 0 0 0;
+}
+.admission-content-wrap{
+    align-self: center;
+    text-align: left;
+}
+.admission-btn-wrap{
+    background: #FDD31D;
+    padding: 1rem 1.5rem;
+    border-radius: 0.8rem;
+}
+.admission-btn-wrap a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.admission-content-wrap p{
+    padding: 1.9rem 0;
+}
+.admission-img-wrap img{
+    width: 40vw;
+    height: 85vh;
+}
+/* admission css end */
+/* about ,admission,why read fanadesh and determine section css combine with admission or about end */
+
+/* client carosuel css start  */
+.client-carousel-main-wrap{
+    padding: 5rem 0;
+}
+.testimonial-head-wrap{
+   margin: 5rem 0;
+    text-align: center;
+}
+.client-data-slider-wrap{
+    align-self: center;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: var(--yellow)!important;
+    width: 1rem!important;
+    height: 1rem!important;
+    border-radius: 1rem!important;
+    border-top: none!important;
+    border-bottom: none!important;
+}
+.client-data-slider-wrap h4{
+    color: #FDD31D;
+}
+/* client carosuel css end */
+
+/* contact us css start */
+.contact-form-wrap input{
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    padding: 1rem 0;
+    width: 40vw;
+    margin:  0 0 1rem 0;
+} 
+input.contact-message {
+    padding: 5rem 0 0 0;
+}
+.contact-wrap{
+    padding: 10rem 0;
+}
+.contact-img img{
+    width: 100%;
+    height: 100%;
+}
+.contact-btn a{
+    border-radius: 0.2rem;
+    padding: 0.5rem  0.5rem;   
+    background: #6EBCA8;
+    text-decoration: none;
+    color: var(--white);
+}
+.form-inputs a{
+    text-decoration: none;
+    color: var(--white);
+    background: #6EBCA8;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    margin: 4rem 0 0 0;
+}
+.contact-wrap-subarea{
+    align-items: center;
+}
+/* contact form css end */
+
