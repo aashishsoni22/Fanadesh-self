@@ -187,3 +187,61 @@ input.contact-message {
 }
 /* contact form css end */
 
+/* footer start */
+.footer-header{
+    font-weight: 600;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.footer-content{
+    padding: 3rem 0 3rem 0;
+}
+.footer-main-wrap{
+    background: #363636;
+    color: var(--white);
+}
+.footer-content-list{
+    justify-content: center;
+}
+.suscribe-btn input{
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+}
+.suscribe-btn a{
+    text-decoration: none;
+    color: var(--white);
+    background: var(--yellow);
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    position: absolute;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.suscribe-btn a:hover{
+    color: var(--white);
+}
+.social-media-list-footer{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.social-media-list-footer ul{
+    display: flex;
+}
+.social-media-list-footer li{
+    list-style-type: none;
+    padding: 1rem 0.5rem;
+}
+.footer-copyright{
+    background: var(--yellow);
+    justify-content: center;
+    display: flex;
+    font-size: 1.2rem;
+    color: var(--white);
+    padding: 1rem 0 0 0;
+}
+/* footer end */
+
